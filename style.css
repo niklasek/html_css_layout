@@ -1,0 +1,45 @@
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}
+
+header {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #999;
+}
+
+.logga {
+	float: left;
+}
+
+nav {
+	float: left;
+}
+
+section {
+	float: left;
+	width: 380px;
+	margin: 10px;
+}
+
+article {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #bbb;
+	padding-left: 80px;
+	padding-right: 80px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer {
+	width: 100%;
+	background-color: #854057;
+}
+
+.footerWrap {
+	width: 960px;
+	margin: 0 auto;
+}
