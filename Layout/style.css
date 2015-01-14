@@ -3,8 +3,17 @@
 	zoom: 1;
 }
 
-header {
+.spalt-1 {
 	width: 960px;
+	margin: auto;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	width: 100%;
 	margin: 0 auto;
 	background-color: #999;
 }
@@ -15,6 +24,22 @@ header {
 
 nav {
 	float: left;
+}
+
+nav ul {
+
+}
+
+nav ul li {
+	float:left;
+	list-style-type: none;
+	padding: 5px;
+	background-color: #aaa;
+	border-right: 3px solid #fff;
+}
+
+nav ul li:hover {
+	background-color: #eee;
 }
 
 section {
@@ -37,9 +62,4 @@ article {
 footer {
 	width: 100%;
 	background-color: #854057;
-}
-
-.footerWrap {
-	width: 960px;
-	margin: 0 auto;
 }
